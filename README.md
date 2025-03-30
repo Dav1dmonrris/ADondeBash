@@ -20,9 +20,11 @@
 
 ## ---                ---
 ###  | *mv*  |
-    > mv 
+    > mv Nombre_Archivo.txt Nuevo_Nombre_Archivo.txt
 
-- **mv** : Mueve o renombra archivos 
+- **mv Archivo.txt N_Archivo.txt** : Renombra archivos
+- **mv Carpeta/ N_Carpeta/** : Coloca la carpeta a otra ruta
+- **mv Archivo.txt Carpeta/** : Mueve archivos a otras carpetas
 
 ## ---                ---
 ###  | *ls*  |
