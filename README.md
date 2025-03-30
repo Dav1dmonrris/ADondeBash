@@ -18,7 +18,7 @@
 - **ls -s** : Ordena por tamaño
 
 
-## -----------------------------------------------
+
 ###  | *mv*  |
     > mv Nombre_Archivo.txt Nuevo_Nombre_Archivo.txt
 
@@ -27,7 +27,7 @@
 - **mv Archivo.txt Carpeta/** : Mueve archivos a otras carpetas
 - **cp** : Copia archivos o carpetas 
   
-## ---                ---
+
 ###  | *mkdir* |
     > mkdir /home/user/Carpeta1/ && cd /home/user/Carpeta1/ && touch Archivo.txt
 
@@ -37,7 +37,7 @@
 - **rm** : Elimina archivos
 
 
-## ---------------------------------------------
+
 ###  | *file*  |
     > file Archivo.txt && cat Archivo.txt
 
@@ -45,7 +45,7 @@
 - **cat** : Muestra el contenido de archivos de texto
 - **less** : Muestra el contenido de archivos pesados de texto
 
-## ---------------------------------------------
+
 ###  | *grep*  |
     > grep "PalabraClave" Archivo.txt; find /home/user -name "*.pdf"
 
