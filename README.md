@@ -53,7 +53,9 @@
 - **find** : Busca archivos y muestra su ruta
 
 ## --- Comodines  ---
+    > find /home/user -name "*.pdf"
+
 - " * " : Todos los achivos
-- " g* ": Todos los archivos que empiezan con g
-- " g*.txt ": Todos los archivos que empiezen con g y terminen con la extension .txt
-- " Data??? ": Todos los archivos que empiezen con Data seguido de 3 caracteres
+- " g* " : Todos los archivos que empiezan con g
+- " g*.txt " : Todos los archivos que empiezen con g y terminen con la extension .txt
+- " Data??? " : Todos los archivos que empiezen con Data seguido de 3 caracteres
