@@ -7,7 +7,7 @@
 - **cd /home/user**: Ingresa carpetas por rutas
 - **cd ..** : Retrocede 1 carpeta
 
-## ---                ---
+## --------------------------------------------
 ###  | *ls*  |
     > ls -R /home/user/Documentos
 
@@ -18,7 +18,7 @@
 - **ls -s** : Ordena por tamaño
 
 
-## ---                ---
+## -----------------------------------------------
 ###  | *mv*  |
     > mv Nombre_Archivo.txt Nuevo_Nombre_Archivo.txt
 
@@ -37,7 +37,7 @@
 - **rm** : Elimina archivos
 
 
-## ---                ---
+## ---------------------------------------------
 ###  | *file*  |
     > file Archivo.txt && cat Archivo.txt
 
@@ -45,7 +45,7 @@
 - **cat** : Muestra el contenido de archivos de texto
 - **less** : Muestra el contenido de archivos pesados de texto
 
-## ---                ---
+## ---------------------------------------------
 ###  | *grep*  |
     > grep "PalabraClave" Archivo.txt; find /home/user -name "*.pdf"
 
