@@ -1,6 +1,6 @@
 # --- Comandos en Bash ---
 
-<img src="imagenes/Terminal2.jpg" alt="Terminal" width="200"/>
+<img src="Imagenes/Terminal2.jpg" alt="Terminal" width="200"/>
 
 ###  |  *cd*  |
     > cd /home/user/Documentos/Carpeta1; cd -
