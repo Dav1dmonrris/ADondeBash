@@ -1,1 +1,1 @@
-# Comandos en Bash
+# --- Comandos en Bash ---
