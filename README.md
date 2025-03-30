@@ -2,7 +2,7 @@
 
 
 <div align="center">
-   <img src="Terminal2.jpg" alt="Terminal" width="200"/>
+   <img src="Terminal2.jpg" alt="Terminal" width=""/>
 </div>
 
 ###  |  *cd*  |
