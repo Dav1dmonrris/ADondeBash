@@ -1,4 +1,4 @@
-# --- Comandos en Bash ---
+# --- Comandos en Shell ---
 
 
 <div align="center">
