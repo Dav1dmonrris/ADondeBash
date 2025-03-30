@@ -7,7 +7,7 @@
 - **cd /home/user**: Ingresa carpetas por rutas
 - **cd ..** : Retrocede 1 carpeta
 
-## --------------------------------------------
+
 ###  | *ls*  |
     > ls -R /home/user/Documentos
 
