@@ -1,6 +1,6 @@
 # --- Comandos en Bash ---
 ###  |  *cd*  |
-    > cd
+    > cd /home/user/Documentos/Carpeta1; cd -
     
 - **cd**   : Se utiliza para desplazarse entre carpetas
 - **cd -** : Ingresa a la penultima carpeta
@@ -9,7 +9,7 @@
 
 ## ---                ---
 ###  | *ls*  |
-    > ls
+    > ls -R /home/user/Documentos
 
 - **ls** : Lista de directorios y archivos 
 - **ls -a** : Muestra archivos ocultos
@@ -29,7 +29,7 @@
   
 ## ---                ---
 ###  | *mkdir* |
-    > mkdir /home/user/Carpeta1/ && touch /home/user/Carpeta1/Archivo.txt
+    > mkdir /home/user/Carpeta1/ && cd /home/user/Carpeta1/ && touch Archivo.txt
 
 - **mkdir** : Crea carpetas
 - **rmdir** : Elimina carpetas 
@@ -38,13 +38,18 @@
 
 
 ## ---                ---
-###  | *ls*  |
+###  | *file*  |
+    > file Archivo.txt && cat Archivo.txt
 
 - **file** : Muestra el tipo de archivo
-- **rm ** : Borra archivos o carpetas
+- **cat** : Muestra el contenido de archivos de texto
+- **less** : Muestra el contenido de archivos pesados de texto
 
 ## ---                ---
-###  | *ls*  |
+###  | *grep*  |
+    > grep "PalabraClave" Archivo.txt; find /home/user -name "*.pdf"
 
+- **grep** : Busca palabras en un archivo de texto
+- **find** : Busca archivos y muestra su ruta
 
 
