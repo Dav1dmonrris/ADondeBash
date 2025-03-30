@@ -7,17 +7,27 @@
 - **cd ..** : Retrocede 1 carpeta
 
 ## ---                ---
+###  | *ls*  |
+
+-**ls** : Lista de directorios y archivos 
 
 
 ## ---                ---
+###  | *ls*  |
 
 
 ## ---                ---
+###  | *ls*  |
+
 
 
 ## ---                ---
+###  | *ls*  |
+
 
 
 ## ---                ---
+###  | *ls*  |
+
 
 
