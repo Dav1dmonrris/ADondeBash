@@ -9,11 +9,11 @@
 ## ---                ---
 ###  | *ls*  |
 
--**ls** : Lista de directorios y archivos 
--**ls -a** : Muestra archivos ocultos
--**ls -t** : Ordena por fechas 
--**ls -R** : Ordena recursivamente los archivos 
--**ls -s** : Ordena por tamaño
+- **ls** : Lista de directorios y archivos 
+- **ls -a** : Muestra archivos ocultos
+- **ls -t** : Ordena por fechas 
+- **ls -R** : Ordena recursivamente los archivos 
+- **ls -s** : Ordena por tamaño
 
 
 ## ---                ---
