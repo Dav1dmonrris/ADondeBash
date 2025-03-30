@@ -3,7 +3,7 @@
     > cd /home/user/Documentos/Carpeta1; cd -
     
 - **cd**   : Se utiliza para desplazarse entre carpetas
-- **cd -** : Ingresa a la penultima carpeta
+- **cd -** : Vuelve a la anterior ruta
 - **cd /home/user**: Ingresa carpetas por rutas
 - **cd ..** : Retrocede 1 carpeta
 
@@ -23,9 +23,9 @@
     > mv Nombre_Archivo.txt Nuevo_Nombre_Archivo.txt
 
 - **mv Archivo.txt N_Archivo.txt** : Renombra archivos
-- **mv Carpeta/ N_Carpeta/** : Coloca la carpeta a otra ruta
+- **mv Carpeta/ N_Carpeta/** : Coloca la carpeta en otra ruta
 - **mv Archivo.txt Carpeta/** : Mueve archivos a otras carpetas
-- **cp** : Copia archivos o carpetas con la misma sintaxis que "mv"
+- **cp** : Copia archivos o carpetas 
   
 ## ---                ---
 ###  | *mkdir* |
