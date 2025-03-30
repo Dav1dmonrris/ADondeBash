@@ -1,5 +1,5 @@
 # --- Comandos en Bash ---
-### |  cd  |
+### |  *cd*  |
 - **cd**   : Se utiliza para desplazarse entre carpetas
 - **cd -** : Ingresa a la penultima carpeta
 - **cd /home/user**: Ingresa carpetas por rutas
