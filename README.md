@@ -25,16 +25,23 @@
 - **mv Archivo.txt N_Archivo.txt** : Renombra archivos
 - **mv Carpeta/ N_Carpeta/** : Coloca la carpeta a otra ruta
 - **mv Archivo.txt Carpeta/** : Mueve archivos a otras carpetas
+- **cp** : Copia archivos o carpetas con la misma sintaxis que "mv"
+  
+## ---                ---
+###  | *mkdir* |
+    > mkdir /home/user/Carpeta1/ && touch /home/user/Carpeta1/Archivo.txt
+
+- **mkdir** : Crea carpetas
+- **rmdir** : Elimina carpetas 
+- **touch** : Crea archivos con cualquier extension
+- **rm** : Elimina archivos
+
 
 ## ---                ---
 ###  | *ls*  |
 
-
-
-## ---                ---
-###  | *ls*  |
-
-
+- **file** : Muestra el tipo de archivo
+- **rm ** : Borra archivos o carpetas
 
 ## ---                ---
 ###  | *ls*  |
