@@ -1,5 +1,6 @@
 # --- Comandos en Bash ---
-### |  *cd*  |
+###  |  *cd*  |
+    > cd
     
 - **cd**   : Se utiliza para desplazarse entre carpetas
 - **cd -** : Ingresa a la penultima carpeta
@@ -8,6 +9,7 @@
 
 ## ---                ---
 ###  | *ls*  |
+    > ls
 
 - **ls** : Lista de directorios y archivos 
 - **ls -a** : Muestra archivos ocultos
@@ -18,6 +20,7 @@
 
 ## ---                ---
 ###  | *mv*  |
+    > mv 
 
 - **mv** : Mueve o renombra archivos 
 
