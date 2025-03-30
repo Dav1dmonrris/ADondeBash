@@ -17,8 +17,9 @@
 
 
 ## ---                ---
-###  | *ls*  |
+###  | *mv*  |
 
+- **mv** : Mueve o renombra archivos 
 
 ## ---                ---
 ###  | *ls*  |
