@@ -6,7 +6,7 @@
 </div>
 
 ###  |  *cd*  |
-    > cd /home/user/Documentos/Carpeta1; cd -
+    cd /home/user/Documentos/Carpeta1; cd -
     
 - **cd**   : Se utiliza para desplazarse entre carpetas
 - **cd -** : Vuelve a la anterior ruta
@@ -15,7 +15,7 @@
 
 
 ###  | *ls*  |
-    > ls -R /home/user/Documentos
+    ls -R /home/user/Documentos
 
 - **ls** : Lista de directorios y archivos 
 - **ls -a** : Muestra archivos ocultos
@@ -26,7 +26,7 @@
 
 
 ###  | *mv*  |
-    > mv Nombre_Archivo.txt Nuevo_Nombre_Archivo.txt
+    mv Nombre_Archivo.txt Nuevo_Nombre_Archivo.txt
 
 - **mv Archivo.txt N_Archivo.txt** : Renombra archivos
 - **mv Carpeta/ N_Carpeta/** : Coloca la carpeta en otra ruta
@@ -35,7 +35,7 @@
   
 
 ###  | *mkdir* |
-    > mkdir /home/user/Carpeta1/ && cd /home/user/Carpeta1/ && touch Archivo.txt
+    mkdir /home/user/Carpeta1/ && cd /home/user/Carpeta1/ && touch Archivo.txt
 
 - **mkdir** : Crea carpetas
 - **rmdir** : Elimina carpetas 
@@ -45,7 +45,7 @@
 
 
 ###  | *file*  |
-    > file Archivo.txt && cat Archivo.txt
+    file Archivo.txt && cat Archivo.txt
 
 - **file** : Muestra el tipo de archivo
 - **cat** : Muestra el contenido de archivos de texto
@@ -53,13 +53,13 @@
 
 
 ###  | *grep*  |
-    > grep "PalabraClave" Archivo.txt; find /home/user -name "*.pdf"
+    grep "PalabraClave" Archivo.txt; find /home/user -name "*.pdf"
 
 - **grep** : Busca palabras en un archivo de texto
 - **find** : Busca archivos y muestra su ruta
 
 ## --- Comodines  ---
-    > find /home/user -name "*.pdf"
+    find /home/user -name "*.pdf"
 
 - " * " : Todos los achivos
 - " g* " : Todos los archivos que empiezan con g
