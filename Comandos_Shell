@@ -72,13 +72,13 @@
 |                    -------     |  ln  |   ---------
 |
 |                                 Ejemplo:
-|            ln -s ~/Ruta/Archivo.txt ~/Enlace_Archivo.txt
+|            ln -s ~/Ruta/Archivo.txt ~/Enlace_Archivo.txt; alias Actualizar="sudo apt update"
 |    
-|             - ln : 
-|             - cat : Muestra el contenido de archivos de texto
-|             - less : Muestra el contenido de archivos pesados de texto
-|             - grep : Busca palabras en un archivo de texto
-|             - find : Busca archivos y muestra su ruta
+|             - ln -s : Crea un enlace simbolico
+|             - ln : Crea un enlace duro
+|             - alias : Crea tu propio comando
+|             - type : Muestra el tipo del comando
+|             - info : Muestra una lista con todos los comandos de bash
 |
 |
 |
