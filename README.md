@@ -7,8 +7,8 @@ Repositorio con recursos para aprender a manipular archivos y carpetas desde la 
 
 ##  Contenido
 
--  **Comandos** basicos para la terminal
--  **Scripts** basicos
+-  Comandos basicos para la terminal
+-  Scripts basicos
 -  Informacion para crear tus propios scripts
 -  Apuntes de un estudiante
 
