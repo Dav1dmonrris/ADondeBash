@@ -5,13 +5,14 @@ Repositorio con recursos para aprender a manipular archivos y carpetas desde la 
    <img src="Terminal2.jpg" alt="Terminal" width="500"/>
 </div>
 
-##  Características
+##  Contenido
 
--  **Comandos** para usar en la terminal
--  **Scripts** creados por mi propia mano
--  Organizado por niveles de dificultad
+-  **Comandos** basicos para la terminal
+-  **Scripts** basicos
+-  Informacion para crear tus propios scripts
+-  Apuntes de un estudiante
 
-## 📂 Estructura del Repositorio
+##  Estructura del Repositorio
 
 ```bash
 .
