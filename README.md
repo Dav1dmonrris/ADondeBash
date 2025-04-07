@@ -10,7 +10,7 @@ Repositorio con recursos para aprender a manipular archivos y carpetas desde la 
 -  Comandos basicos para la terminal
 -  Scripts basicos
 -  Informacion para crear tus propios scripts
--  otras cosas más
+-  y ya
 
 ##  Estructura del Repositorio
 
