@@ -1,5 +1,5 @@
 # Bash_
-Repositorio con recursos para scripting
+Repositorio con recursos para aprender a manipular archivos y carpetas desde la terminal, y tambien contiene algunos recursos para scripting.
 
 <div align="center">
    <img src="Terminal2.jpg" alt="Terminal" width="500"/>
