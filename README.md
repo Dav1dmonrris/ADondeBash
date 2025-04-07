@@ -1,9 +1,7 @@
 # Bash_
-![Bash Logo](https://img.shields.io/badge/Bash-4EAA25?style=for-the-badge&logo=GNU%20Bash&logoColor=white)
-![License](https://img.shields.io/badge/License-MIT-blue)
 
 <div align="center">
-   <img src="Terminal2.jpg" alt="Terminal" width="200"/>
+   <img src="Terminal2.jpg" alt="Terminal" width="500"/>
 </div>
 
 
