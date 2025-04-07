@@ -1,4 +1,4 @@
-# Bash_
+# _Bash_
 Repositorio con recursos para aprender a manipular archivos y carpetas desde la terminal de Linux, y tambien contiene algunos recursos para scripting.
 
 <div align="center">
