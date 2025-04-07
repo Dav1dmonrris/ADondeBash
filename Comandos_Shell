@@ -75,7 +75,9 @@
 |            ln -s ~/Ruta/Archivo.txt ~/Enlace_Archivo.txt; alias Actualizar="sudo apt update"
 |    
 |             - ln -s : Crea un enlace simbolico
+|             - readlink -f : Muestra el origen de enlace simbolico
 |             - ln : Crea un enlace duro
+|             - stat : Muestra los permisos del enlace
 |             - alias : Crea tu propio comando
 |             - type : Muestra el tipo del comando
 |             - info : Muestra una lista con todos los comandos de bash
@@ -95,9 +97,6 @@
 |             - " Data??? " : Todos los archivos que empiezen con Data seguido de 3 caracteres-
 |               
 |                
-|
-|
-|
 |
 |---------------------------------------------------------------------------------|
 |                  --- OPERADORES PARA CONDICIONALES ---                          |
