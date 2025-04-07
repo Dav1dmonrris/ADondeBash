@@ -1,4 +1,5 @@
 # Bash_
+Repositorio con recursos para scripting
 
 <div align="center">
    <img src="Terminal2.jpg" alt="Terminal" width="500"/>
