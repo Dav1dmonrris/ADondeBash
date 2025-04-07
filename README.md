@@ -16,5 +16,6 @@ Repositorio con recursos para aprender a manipular archivos y carpetas desde la 
 
 ```main
 .
-├── Scripts-Bash/         # Scripts básicos 
-└── README.md             # Este archivo
+├── Scripts-Bash/         # Scripts básicos
+├── Comandos-Bash/        # Lista con comandos basicos
+└── README.md             # Lo que estas leyendo
