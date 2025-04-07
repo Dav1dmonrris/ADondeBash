@@ -14,9 +14,10 @@ Repositorio con recursos para aprender a manipular archivos y carpetas desde la 
 
 ##  Estructura del Repositorio
 
-```bash
+```main
+branchs
 .
-├── basics/               # Scripts básicos (variables, condicionales)
+├── Scripts-Bash/               # Scripts básicos (variables, condicionales)
 ├── intermediate/         # Manejo de archivos, funciones
 ├── advanced/             # Señales, concurrencia, APIs
 ├── snippets/             # Fragmentos útiles para reutilizar
