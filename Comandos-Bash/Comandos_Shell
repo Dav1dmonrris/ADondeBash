@@ -1,9 +1,13 @@
-|---------------------------------------------------------------------------------|
-|                            --- COMANDOS BASH ---                                |
-|---------------------------------------------------------------------------------|
+|---------------------------------------------------------------------------------------------------------------------|
+|                                 --- COMANDOS BASH ---                                                               |
+|---------------------------------------------------------------------------------------------------------------------|
+|      Son instrucciones o programas que se ejecutan en el Shell Bash                                                 |
+|---------------------------------------------------------------------------------------------------------------------|
 |
 |
+|                    --------------------------------
 |                    -------     |  cd  |   ---------
+|                    --------------------------------
 |
 |                                 Ejemplo:
 |                   cd /home/user/Documentos/Carpeta1; cd -
@@ -15,11 +19,12 @@
 |
 |
 |
-|
+|                    --------------------------------
 |                    -------     |  ls  |   ---------
+|                    --------------------------------
 |
 |                                 Ejemplo:               
-|                        ls -R /home/user/Documentos
+|                    ls -R /home/user/Documentos
 |
 |              - ls : Lista de directorios y archivos 
 |              - ls -a : Muestra archivos ocultos
@@ -29,7 +34,9 @@
 |
 |
 |
+|                    --------------------------------
 |                    -------     |  mv  |   ---------
+|                    --------------------------------
 |
 |                                 Ejemplo:
 |                   mv Nombre_Archivo.txt Nuevo_Nombre_Archivo.txt
@@ -41,11 +48,12 @@
 |
 |
 |
-|
-|                    -------     |  mkdir |   ---------
+|                    --------------------------------
+|                    -------   |  mkdir |   ---------
+|                    --------------------------------
 |
 |                                 Ejemplo:
-|               mkdir /home/user/Carpeta1/ && cd /home/user/Carpeta1/ && touch Archivo.txt
+|                   mkdir /home/user/Carpeta1/ && cd /home/user/Carpeta1/ && touch Archivo.txt
 |    
 |             - mkdir : Crea carpetas
 |             - rmdir : Elimina carpetas 
@@ -54,11 +62,12 @@
 |
 |
 |
-|
-|                    -------     |  file  |   ---------
+|                    --------------------------------
+|                    -------   |  file  |   ---------
+|                    --------------------------------
 |
 |                                 Ejemplo:
-|          file Archivo.txt && cat Archivo.txt && grep "PalabraClave" Archivo.txt; find /home/user -name "*.pdf"
+|                  file Archivo.txt && cat Archivo.txt && grep "PalabraClave" Archivo.txt; find /home/user -name "*.pdf"
 |    
 |             - file : Muestra el tipo de archivo
 |             - cat : Muestra el contenido de archivos de texto
@@ -68,11 +77,12 @@
 |                
 |
 |
-|
+|                    --------------------------------
 |                    -------     |  ln  |   ---------
+|                    --------------------------------
 |
 |                                 Ejemplo:
-|            ln -s ~/Ruta/Archivo.txt ~/Enlace_Archivo.txt; alias Actualizar="sudo apt update"
+|                   ln -s ~/Ruta/Archivo.txt ~/Enlace_Archivo.txt; alias Actualizar="sudo apt update"
 |    
 |             - ln -s : Crea un enlace simbolico
 |             - readlink -f : Muestra el origen de enlace simbolico
@@ -84,10 +94,13 @@
 |
 |
 |
-|---------------------------------------------------------------------------------|
-|                            --- COMODINES ---                                    |
-|---------------------------------------------------------------------------------|
+|---------------------------------------------------------------------------------------------------------------------|
+|                            --- COMODINES ---                                                                        |
+|---------------------------------------------------------------------------------------------------------------------|
+|     Son caracteres especiales para reconocer conincidencias o patrones de archivos                                  |
+|---------------------------------------------------------------------------------------------------------------------|
 |
+|                                 Ejemplo:
 |                      find /home/user -name "*.pdf"
 |
 |
@@ -98,10 +111,30 @@
 |               
 |                
 |
-|---------------------------------------------------------------------------------|
-|                  --- OPERADORES PARA CONDICIONALES ---                          |
-|---------------------------------------------------------------------------------|
+|---------------------------------------------------------------------------------------------------------------------|
+|                   --- REDIRIGIENDO SALIDA ESTANDAR ---                                                              |
+|---------------------------------------------------------------------------------------------------------------------|
+|                      
 |
+|              -------     |  SALIDA ESTANDAR  |   ---------
+|       La salida estandar es el resultado de un comando en la terminal de comandos
+|     
+|                               Ejemplo:                          
+|                     
+|                   ls  ~/Documentos/  >  ls_Output.txt
+|                   /\         /\              /\
+|                   ||         ||              ||
+|                   ||         ||              ||
+|                   |Comando|  |Directorio|    |Salida|
+|
+|
+|
+|
+|---------------------------------------------------------------------------------------------------------------------|
+|                  --- OPERADORES PARA CONDICIONALES ---                                                              |
+|---------------------------------------------------------------------------------------------------------------------|
+|   Operadores para la verificacion de un archivo o directorio dentro de un IF en Bash                                |
+|---------------------------------------------------------------------------------------------------------------------|
 |
 |             -------     |  ARCHIVOS O DIRECTORIOS  |   ---------
 |
@@ -114,19 +147,17 @@
 |             - -x "$Archivo": Verifica si es ejecutable
 |       
 |
+|     
+|         
 |
 |
 |
 |
+|     
+|         
 |
 |
 |
 |
-|
-|
-|
-|
-|
-
 
 
