@@ -112,11 +112,12 @@
 |                
 |
 |---------------------------------------------------------------------------------------------------------------------|
-|                   --- REDIRIGIENDO SALIDA ESTANDAR ---                                                              |
+|                   --- REDIRIGIENDO ENTRADA, SALIDA Y ERROR ESTANDAR ---                                             |
 |---------------------------------------------------------------------------------------------------------------------|
 |                      
 |
 |              -------     |  SALIDA ESTANDAR  |   ---------
+|
 |       La salida estandar es el resultado de un comando en la terminal de comandos
 |     
 |                               Ejemplo:                          
@@ -127,6 +128,64 @@
 |                   ||         ||              ||
 |                   |Comando|  |Directorio|    |Salida|
 |
+|
+|
+|              -------     |  ERROR ESTANDAR  |   ---------
+|
+|       El error estandar es un mensaje que se muestra cuando las cosas no salen como se esperaban.
+|       El numero '2' representa el descriptor de archivo del error estandar, que es un programa para 
+|       producir salidas en una de varias cadenas de archivos.
+|     
+|                               Ejemplo:                          
+|
+|                             |Operador|
+|                                     ||
+|                                     ||
+|                                     \/
+|                   ls  ~/No Existe/  2>  ls_Output.txt
+|                   /\         /\              /\
+|                   ||         ||              ||
+|                   ||         ||              ||
+|                   |Comando|  |Directorio|    |Salida|
+|
+|
+|
+|              -------     |  SALIDA Y ERROR ESTANDAR  |   ---------
+|
+|       Si existe una salida estandar se muestra en el archivo ls_Output , y si exite algun error, 
+|       se direcciona al descriptor de archivo 1(error estandar).
+|     
+|                               Ejemplo:                          
+|
+|                            |Operador|     |Redireccion|
+|                                    ||                ||
+|                                    ||                ||
+|                                    \/                \/
+|                   ls  ~/No existe/  >  ls_Output.txt 2>&1
+|                   /\          /\              /\
+|                   ||          ||              ||
+|                   ||          ||              ||
+|                   |Comando|   |Directorio|    |Salida|
+|
+|
+|
+|              -------     |  SALIDAS INNECESARIAS  |   ---------
+|
+|        Puedes redireccionar mensajes que no son necesarios al archivo /dev/null.
+|        Este archivo es un dispositivo llamado cubo de bits que acepta entradas pero no hace nada.
+|
+|                               Ejemplo:                   
+|
+|
+|                      |Operador para el descriptor error|
+|                                    ||
+|                                    || 
+|                                    \/ 
+|                   ls  ~/No existe/ 2> /dev/null
+|                   /\          /\            /\
+|                   ||          ||            ||
+|                   ||          ||            ||
+|                |Comando|   |Directorio|  |Salida|
 |
 |
 |
