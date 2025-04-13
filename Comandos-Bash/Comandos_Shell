@@ -107,7 +107,29 @@
 |             - " * " : Todos los achivos
 |             - " g* " : Todos los archivos que empiezan con g
 |             - " g*.txt " : Todos los archivos que empiezen con g y terminen con la extension .txt
-|             - " Data??? " : Todos los archivos que empiezen con Data seguido de 3 caracteres-
+|             - " Data??? " : Todos los archivos que empiezen con Data seguido de 3 caracteres
+|
+|
+|
+|---------------------------------------------------------------------------------------------------------------------|
+|                            --- FILTROS ---                                                                          |
+|---------------------------------------------------------------------------------------------------------------------|
+|     Los filtros toman entradas, modifican la salida y la mandan a la salida.                                        |
+|     Los filtros traban con comandos, NO con archivos.                                                               |
+|---------------------------------------------------------------------------------------------------------------------|
+|
+|                                 Ejemplo:
+|
+|                      ls /bin /usr/bin | sort | less
+|
+|
+|             - sort : Ordena lineas de texto
+|             - uniq : Reporta u omite lineas repetidas
+|             - grep : Imprime lineas que coincidas con un patrò
+|             - wc : Imprime el numero de lineas, palabras y bytes para cada archivo
+|             - head : Imprime la primera parte de un archivo
+|             - tail : Imprime la última parte de un archivo
+|             - tee : Lee de la entrada estándar y escribe en la salida estándar y en archivos
 |               
 |                
 |
