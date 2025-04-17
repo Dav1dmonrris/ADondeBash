@@ -228,6 +228,27 @@
 |             - -x "$Archivo": Verifica si es ejecutable
 |       
 |
+|---------------------------------------------------------------------------------------------------------------------|
+|                            --- SECUENCIA DE ESCAPE ---                                                              |
+|---------------------------------------------------------------------------------------------------------------------|
+|     Una secuencia de escape es una combinación de caracteres que se utiliza para representar caracteres especiales  |
+|---------------------------------------------------------------------------------------------------------------------|
+|
+|                                 Ejemplo:
+|
+|                      echo -e "Hola\n"; echo "Hola, ¿Como estas?"
+|                                   /\
+|                                   ||  
+|                                   || 
+|                                   |Salto de linea|  
+|
+|             - \a : Alerta
+|             - \b : Retroceder un espacio
+|             - \n : Salto de linea
+|             - \r : Retorno de carro
+|             - \t : Tabulacion
+|
+|
 |     
 |         
 |
