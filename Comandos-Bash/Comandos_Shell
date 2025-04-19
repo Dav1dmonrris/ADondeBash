@@ -226,6 +226,17 @@
 |             - -r "$Archivo": Verifica si es legible
 |             - -w "$Archivo": Verifica si es escribible
 |             - -x "$Archivo": Verifica si es ejecutable
+|   
+|   
+|             -------     |  NUMEROS  |   ---------
+|
+|
+|             - -gt : Mayor que >
+|             - -ge : Mayor o igual que >=
+|             - -lt : Menor que <
+|             - -le : Menor o igual que <=
+|             - -eq : Igual que ==
+|             - -ne : No igual que !=
 |       
 |
 |---------------------------------------------------------------------------------------------------------------------|
